@@ -16,10 +16,12 @@ export const Controls = styled.div`
     color: white;
     box-sizing: content-box;
 
-    border: 3px solid;
+    border: 3px solid #fe6402;
     background-color: #fe6402;
     :hover {
       color: #fe6402;
+      border: 3px solid white;
+
       background-color: white;
     }
   }

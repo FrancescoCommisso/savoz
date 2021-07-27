@@ -19,6 +19,8 @@ export const Input = styled.input`
   margin-bottom: 20px;
   border-radius: 5px;
   border: none;
+  box-shadow: 5px 10px 8px rgb(0 0 0 / 10%);
+  border-radius: 5px;
 `;
 
 export const Button = styled.button`

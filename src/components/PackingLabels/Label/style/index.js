@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     color: black;
     background-color: white;
     font-weight: 900;
-    font-size: 10px;
+    font-size: 19px;
     page-break-before: always;
   }
   justify-content: center;

@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-savoz-master-175802-authRole",
+      "UnauthRoleArn": "arn:aws:iam::977152021916:role/amplify-savoz-master-175802-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::977152021916:role/amplify-savoz-master-175802-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-savoz-master-175802-deployment",
+      "UnauthRoleName": "amplify-savoz-master-175802-unauthRole",
+      "StackName": "amplify-savoz-master-175802",
+      "StackId": "arn:aws:cloudformation:us-east-1:977152021916:stack/amplify-savoz-master-175802/8ce82c80-ee5c-11eb-b2dd-0a619e90e3eb",
+      "AmplifyAppId": "dkeomb2uv002x"
+    }
+  }
+}

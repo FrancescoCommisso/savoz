@@ -29,7 +29,6 @@ const LabelForm = () => {
       deliveryDate,
     ];
     if (!field.some((i) => !i)) {
-      console.log("all good");
       setSavozOrder(() => ({
         customerAddress,
         customerCity,
@@ -42,8 +41,6 @@ const LabelForm = () => {
       }));
 
       setError(false);
-    } else {
-      console.log("found bad");
     }
   }, [
     customerAddress,
@@ -99,6 +96,7 @@ const LabelForm = () => {
         onChange={(e) => {
           setTotalCases(e.target.value);
         }}
+        type="number"
         placeholder="Total Cases"
       ></Input>
 
